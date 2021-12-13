@@ -74,7 +74,7 @@ using (MemoryStream memory = new MemoryStream())
 }
 #>
 /**************************************************************************************************
-  File: <#= className #>. Cs
+  File: <#= className #>.cs
   Class: <#= className #>
   Description: The class contains the file <#= fileName #> compressed with GZip,
   encrypted using primitive XOR encryption on a hash table,
@@ -93,7 +93,7 @@ namespace System
 /// Represents the data of an archived file <#= fileName #>,
 /// and also provides methods to retrieve this data.
 /// </summary> 
-internal static class <#= className #> 
+public static class <#= className #> 
 {
 
 	#region Const
